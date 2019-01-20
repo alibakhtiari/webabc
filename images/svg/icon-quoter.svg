@@ -1,0 +1,20 @@
+<svg width="46" height="44" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+ <title>icon-quote</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(-180 22.999998092651367,21.949949264526367) " fill-rule="evenodd" fill="none" id="Page-1">
+   <g fill="#2154CF" id="Index">
+    <g id="Group-12-Copy">
+     <path id="icon-quote" d="m0.01092,23.8999l-0.01092,0l0,20l19.98482,0l0,-20l-9.97774,0c-0.00445,-0.80235 0.07263,-6.25365 2.8919,-9.99951c3.04968,-4.052 8.10102,-5.70044 8.10102,-5.70044l-3.6972,-8.19995c0,0 -7.29445,1.92969 -12.56266,8.78979c-4.93093,6.42091 -4.77004,14.14712 -4.72922,15.11011l0,0zm25,0l-0.01092,0l0,20l19.98482,0l0,-20l-9.97774,0c-0.00445,-0.80235 0.07263,-6.25365 2.8919,-9.99951c3.04968,-4.052 8.10102,-5.70044 8.10102,-5.70044l-3.6972,-8.19995c0,0 -7.29445,1.92969 -12.56266,8.78979c-4.93093,6.42091 -4.77004,14.14712 -4.72922,15.11011l0,0z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
