@@ -19,6 +19,7 @@
 	<meta property="og:url" content="https://webabc.ir">
 	<meta property="og:description" content="طراحی ، برنامه نویسی و ارائه راهکار های حوضه فناوری">
 	<script type="application/ld+json">{"@context":"http://schema.org","@type":"Corporation","name":"WebABC","alternateName":"وب آ ب ث","url":"https://webabc.ir","logo":"logo.png","contactPoint":{"@type":"ContactPoint","telephone":"+989125811880","contactType":"sales"},"sameAs":["https://facebook.com/ali","https://facebook.com/ali"]}</script>
+   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body class='index' id='index'>
@@ -338,12 +339,16 @@
    <div class='contact_us lighter'>
          <div class='container'>
             <div class='contact_info'>
-               <form class='send_msg' enctype="multipart/form-data" action="https://mailapi.abcdn.ir/api/QC7Gqf7Ste0YNVat8D4G" method="post">
+               <form class='send_msg' enctype="multipart/form-data" action="mail.php" method="post">
+                  <div class="contact__msg" style="display: none">
+                     <p>Your message was sent successfully.</p>
+                 </div>
                     <input type="hidden" name="_after" value="/thank_you.html">
                   <h3>ارسال پیام</h3>
                   <input class='input' name='name' placeholder='نام' required type='text' aria-label="name">
                   <input class='input' name='email' placeholder='پست الکترونیکی' required type='email' aria-label="email">
                   <textarea class='input' name='message' placeholder='متن پیام' required aria-label="message"></textarea>
+                  <div class="g-recaptcha" data-sitekey="6LdfXLIUAAAAAK2i51AG8SujZgW8zMGlEC6bgBEl"></div>
                   <input class='button button_big button-blue arrow_right'  type='submit' value='ارسال'>
                </form>
                <div class='info'>
