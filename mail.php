@@ -12,7 +12,7 @@
         }
 
         # FIX: Replace this email with recipient email
-        $mail_to = "demo@gmail.com";
+        $mail_to = "ali.bakhtiarii@gmail.com";
         
         # Sender Data
         $subject = "WebABC";

@@ -33,8 +33,9 @@ form * {
 }
 
 @font-face {
-    font-family: IRANSans;
-    src: url(../fonts/eot/IRANSansWeb.eot), url(../fonts/eot/IRANSansWeb.eot?#iefix) format('embedded-opentype'), url(../fonts/woff2/IRANSansWeb.woff2) format('woff2'), url(../fonts/woff/IRANSansWeb.woff) format('woff'), url(../fonts/ttf/IRANSansWeb.ttf) format('truetype')
+    font-family: IranYekan;
+    font-display: swap;
+    src: url(../fonts/iranyekan.woff2) format('woff2'), url(../fonts/iranyekan.woff) format('woff')
 }
 
 .pace {
@@ -117,8 +118,8 @@ body {
     width: 100vw;
     overflow-x: hidden;
     margin: 0;
-    font: 400 15px/1.618em IRANSANS;
-    color: #626c84
+    font: 400 15px/1.618em IranYekan;
+    color: #5a688a
 }
 
 body .wrap {
@@ -134,21 +135,21 @@ body .wrap {
 
 h1 {
     margin: 120px 0 0;
-    font: 700 42px/1em IRANSANS
+    font: 700 42px/1em IranYekan
 }
 
 .sub-h1 {
-    font: 400 20px/1.618em IRANSANS
+    font: 400 20px/1.618em IranYekan
 }
 
 h2 {
-    font: 800 25px/1.618em IRANSANS;
+    font: 800 25px/1.618em IranYekan;
     padding: 20px 0
 }
 
 .sub-h2 {
     margin: -20px auto 40px;
-    font: 400 15px/1.618em IRANSANS;
+    font: 400 15px/1.618em IranYekan;
     color: #626c84
 }
 
@@ -160,12 +161,12 @@ h6 {
 
 h3,
 h4 {
-    font: 700 25px/1.618em IRANSANS
+    font: 700 25px/1.618em IranYekan
 }
 
 h6 {
     margin: 20px auto;
-    font: 700 15px/1em IRANSANS
+    font: 700 15px/1em IranYekan
 }
 
 a.big,
@@ -181,7 +182,7 @@ p.small {
 }
 
 .button {
-    font: 700 15px/1em IRANSANS;
+    font: 700 15px/1em IranYekan;
     color: #fff
 }
 
@@ -248,7 +249,7 @@ form .input {
     padding: 21px 25px;
     height: 60px;
     width: 100%;
-    font: 400 15px/1.618em IRANSANS;
+    font: 400 15px/1.618em IranYekan;
     background: -20px 22px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -937,7 +938,7 @@ body .slider .content[slide=active] {
 }
 
 .index p.words_text {
-    font-family: IRANSANS;
+    font-family: IranYekan;
     font-size: 30px;
     font-weight: 800;
     text-align: center;
@@ -1124,7 +1125,7 @@ body .slider .content[slide=active] {
 .index .success_stories .content-r h4 span.number {
     margin-left: 40px;
     width: 50px;
-    font-family: IRANSANS;
+    font-family: IranYekan;
     font-size: 35px;
     color: #2255ce;
     text-align: center
@@ -1175,11 +1176,11 @@ body .slider .content[slide=active] {
 }
 
 .index .words_from_clients .headline p.text_color-cyan {
-    font-family: IRANSANS
+    font-family: IranYekan
 }
 
 .index .words_from_clients .words_text {
-    font-family: IRANSANS;
+    font-family: IranYekan;
     font-size: 30px;
     font-weight: 800;
     text-align: center;
@@ -1194,7 +1195,7 @@ body .slider .content[slide=active] {
 .contact_us h3 {
     margin-top: 0;
     margin-bottom: 20px;
-    font: 700 20px/1.618em IRANSANS;
+    font: 700 20px/1.618em IranYekan;
     color: #626c84
 }
 
@@ -1258,7 +1259,7 @@ body .slider .content[slide=active] {
 }
 
 nav {
-    font: 700 15px/1em IRANSANS;
+    font: 700 15px/1em IranYekan;
     color: #252a37
 }
 
@@ -2738,3 +2739,5 @@ ul {
         padding: 60px 15px
     }
 }
+.whatsapp {background-color: #25d366;position: fixed;bottom: 15px;width: 50px; height: 50px; border-radius: 50px;text-align: center;}
+.whatsapp svg {fill: white;width: 30px;margin-top: 8px;}
